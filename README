@@ -2,7 +2,7 @@ A partir de ce projet, construire un parcours avec des choix dans des secteur ag
 
 
 
-Pour le faire fonctionner, dans la première ligne :
+Pour le faire fonctionner, dans la prem scaleière ligne :
 #!/home/handyrod/.rvm/gems/ruby-2.2.1/bin/shotgun
 Remplacez 'handyrod' par 'votre_nom_d_utilisateur',
 Allez dans le fichier en console et rendez exécutable le fichier simple.rb avec la commande :
