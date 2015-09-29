@@ -35,8 +35,8 @@ ul {
        margin: auto;
        padding: 0%;
        font-style: none;
-       width: 600px;
-       height: 600px;
+       width: 800px;
+       height: 800px;
        font-family: 'lobster.otf' , Arial, serif;
 }
 h1 {
@@ -62,7 +62,7 @@ ul li a {
 }
 li {
        display: flex; /* IE fix */
-       flex:0 0 33.333%; /* boîtes non flexibles de largeur 33% */
+       flex:0 0 33.333%;  boîtes non flexibles de largeur 33% 
        font-family: 'lobster' , Arial, serif;
 }
 li:first-of-type, li:last-of-type {
@@ -74,10 +74,10 @@ li:first-of-type, li:last-of-type {
       margin: 1em auto;
       background-color: #E5E5AD;
 }
-#prem {
+.prem {
        font-style: bold;
        text-align: center;
-	 background-color: #40A497;
+	     background-color: #40A497;
        -webkit-transition: 1s ease-in-out;
        -moz-transition: 1s ease-in-out;
        -o-transition: 1s ease-in-out;
@@ -85,14 +85,14 @@ li:first-of-type, li:last-of-type {
        width: 33%;
        height: 33%;
 }
-#prem:hover {
+.prem:hover {
        -webkit-transform:  scale(2);
        -moz-transform:  scale(2);
        -o-transform:  scale(2);
        -ms-transform:  scale(2);
         transform: scale(2);
 }
-#deux {
+.deux {
        font-style: bold;
        text-align: center;
 	 background-color: #F7F705;
@@ -104,14 +104,14 @@ li:first-of-type, li:last-of-type {
        height: 33%;
 	 border-radius: 50px 50px;
 }
-#deux:hover {
+.deux:hover {
        -webkit-transform:  scale(2);
        -moz-transform:  scale(2);
        -o-transform:  scale(2);
        -ms-transform:  scale(2);
         transform: scale(2);
 }
-#trois {
+.trois {
        font-style: bold;
        text-align: center;
 	 background-color: #E8950C;
@@ -122,14 +122,14 @@ li:first-of-type, li:last-of-type {
        width: 33%;
        height: 33%;
 }
-#trois:hover {
+.trois:hover {
        -webkit-transform:  scale(2);
        -moz-transform:  scale(2);
        -o-transform:  scale(2);
        -ms-transform:  scale(2);
         transform: scale(2);
 }
-#quatre {
+.quatre {
        font-style: bold;
        text-align: center;
 	 background-color: #9A3C62;
@@ -140,14 +140,14 @@ li:first-of-type, li:last-of-type {
        width: 33%;
        height: 33%;
 }
-#quatre:hover {
+.quatre:hover {
        -webkit-transform:  scale(2);
        -moz-transform:  scale(2);
        -o-transform:  scale(2);
        -ms-transform:  scale(2);
         transform: scale(2);
 }
-#cinq {
+.cinq {
        font-style: bold;
        text-align: center;
 	 background-color: #92913C;
@@ -158,7 +158,7 @@ li:first-of-type, li:last-of-type {
        width: 33%;
        height: 33%;
 }
-#cinq:hover {
+.cinq:hover {
        -webkit-transform:  scale(2);
        -moz-transform:  scale(2);
        -o-transform:  scale(2);
