@@ -7,36 +7,38 @@ get '/' do
         erb :intro
 end
 
-get '/fumer' do
-        erb :fumer
+get '/perspectives' do
+        erb :perspectives
 end
 
-get '/attendre' do
-	erb :attendre
+get '/diplome' do
+	erb :diplome
 end
-get '/bavarder' do
-           erb :bavarder
-end
-
-get '/cafe' do
-	erb :cafe
+get '/proximite' do
+           erb :proximite
 end
 
-get '/faire_tour' do
-           erb :faire_tour
+get '/terroir' do
+  erb :terroir
 end
 
-get '/plan' do
-           erb :plan
+get '/salaire' do
+           erb :salaire
+end
+
+get '/securite' do
+           erb :securite
+end
+
+get '/qualite' do
+	erb :qualite
 end
 
 get '/toilettes' do
-           erb :toilettes
+   erb :toilettes
 end
 
-get '/ordinateur' do
-	erb :ordinateur
-end
+
 
 get '/ecran_noir' do
 	erb :ecran_noir

@@ -37,24 +37,24 @@ ul {
        font-style: none;
        width: 600px;
        height: 600px;
-       font-family: lobster.otf , Arial, serif;
+       font-family: 'lobster.otf' , Arial, serif;
 }
 h1 {
-       font-family: Dayrom, Verdana, sans-font;
+       font-family: 'Dayrom', Verdana, sans-font;
 }
 p {
-       font-family: Dayrom, Verdana, sans-font;
+       font-family: 'Dayrom', Verdana, sans-font;
        text-align: center;
        font-size: 2em;
 }
 h2 {
-	font-family: BallparkWeiner, Arial, sans-font;
+	font-family: 'Dayrom', Arial, sans-font;
 	text-align: center;
        font-size: 3em;
 }
 ul li a {
        text-decoration: none;
-       font-family: lobster , Arial, serif;
+       font-family: 'lobster' , Arial, serif;
        font-size: 2em;
        color: wheat;
        text-shadow: 2px 2px 4px black;
@@ -63,7 +63,7 @@ ul li a {
 li {
        display: flex; /* IE fix */
        flex:0 0 33.333%; /* boîtes non flexibles de largeur 33% */
-       font-family: lobster , Arial, serif;
+       font-family: 'lobster' , Arial, serif;
 }
 li:first-of-type, li:last-of-type {
       margin: 0 33.333%; /* 1ère et dernière boite centrées */
