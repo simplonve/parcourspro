@@ -1,8 +1,12 @@
 A partir de ce projet, construire un parcours avec des choix dans des secteur agro-alimentaire
 
+App en Sinatra
+Requirements : 
+ruby -2.2.1
+shotgun (gem install shotgun)
 
 
-Pour le faire fonctionner, dans la prem scaleière ligne :
+Pour le faire fonctionner,dans la première ligne :
 #!/home/handyrod/.rvm/gems/ruby-2.2.1/bin/shotgun
 Remplacez 'handyrod' par 'votre_nom_d_utilisateur',
 Allez dans le fichier en console et rendez exécutable le fichier simple.rb avec la commande :
