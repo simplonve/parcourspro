@@ -1,4 +1,4 @@
-require 'ruby-2.2.1'
+#require 'ruby-2.2.1'
 require 'rubygems'
 require 'sinatra'
 
