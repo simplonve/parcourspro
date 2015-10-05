@@ -1,4 +1,6 @@
+
 #require 'ruby-2.2.1'
+
 require 'rubygems'
 require 'sinatra'
 
@@ -43,4 +45,6 @@ get '/filiere' do
    erb :filiere
 end
 
-
+get '/bilan_agroalimentaire' do
+   erb :bilan_agroalimentaire
+end
