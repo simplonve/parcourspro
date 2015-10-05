@@ -25,6 +25,10 @@ h1 {
        font-family: 'lobster', Verdana, sans-font;
        font-size: 2em
 }
+h3 {
+  font-family: 'dayrom';
+  text-align: center;
+}
 p {
        font-family: 'dayrom', Verdana, sans-font;
        text-align: center;
