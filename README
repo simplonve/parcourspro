@@ -1,9 +1,10 @@
-A partir de ce projet, construire un parcours avec des choix dans des secteur agro-alimentaire
+A partir de ce projet, construire un parcours avec des choix dans les secteur agro-alimentaire en Drôme Ardèche.
 
 App en Sinatra
 Requirements : 
 ruby -2.2.1
-shotgun (gem install shotgun)
+gem install sinatra
+gem install shotgun
 
 
 Allez dans le fichier en console et rendez exécutable le fichier simple.rb avec la commande :
