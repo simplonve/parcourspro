@@ -1,2 +1,2 @@
 require './simple'
-run Sinatra:Application
+run Sinatra::Application
