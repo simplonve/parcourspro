@@ -1,5 +1,4 @@
-#!/home/rodrod/.rvm/gems/ruby-2.2.1/bin/shotgun
-require 'rubygems'
+require 'ruby-2.2.1'
 require 'sinatra'
 
 
