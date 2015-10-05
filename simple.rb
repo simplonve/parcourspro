@@ -1,4 +1,4 @@
-#!/home/rodrod/.rvm/gems/ruby-2.2.1/bin/shotgun
+# !/home/rodrod/.rvm/gems/ruby-2.2.1/bin/shotgun
 require 'rubygems'
 require 'sinatra'
 
@@ -43,4 +43,6 @@ get '/filiere' do
    erb :filiere
 end
 
-
+get '/bilan_agroalimentaire' do
+   erb :bilan_agroalimentaire
+end
