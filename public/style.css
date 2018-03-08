@@ -72,7 +72,7 @@ nav a {
 }
 .cube {
        display: flex; /* IE fix */
-       flex:0 0 33.333%;  boîtes non flexibles de largeur 33% 
+       flex:0 0 33.333%;  /*boîtes non flexibles de largeur 33%*/ 
        font-family: 'dayrom' , Arial, serif;
 }
 .cube:first-of-type, .cube:last-of-type {
