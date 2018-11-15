@@ -40,7 +40,6 @@ h2 {
        font-size: 3em;
 }
 nav {
-    
     background-color: black;
 }
 nav a {
@@ -72,7 +71,7 @@ nav a {
 }
 .cube {
        display: flex; /* IE fix */
-       flex:0 0 33.333%;  /*boîtes non flexibles de largeur 33%*/ 
+       flex:0 0 33.333%;  /*boîtes non flexibles de largeur 33%*/
        font-family: 'dayrom' , Arial, serif;
 }
 .cube:first-of-type, .cube:last-of-type {
@@ -177,7 +176,12 @@ nav a {
        display: flex;
        margin: 50px auto;
 }
-.animation {  
+.centre {
+   display: flex;
+   align-items: center;
+  justify-content: center
+}
+.animation {
     font-size: 3em;
        font-weight: bold;
        color: #222D72;
@@ -191,9 +195,9 @@ nav a {
        padding-left: 10%;
        -webkit-transform-origin: left center;
        -ms-transform-origin: left center;
-        transform-origin: left center;
-       -webkit-animation: fall 6s ;
-        animation: fall 10s ;
+       transform-origin: left center;
+       -webkit-animation: fall 4s ;
+        animation: fall 4s ;
 }
 @-webkit-keyframes fall {
       from, 15% {
@@ -248,7 +252,7 @@ nav a {
       h1{
 
              font-size: 0.5em;
-      }  
+      }
       .cubes {
              display: flex;
              flex-direction: row; /* affichage horizontal */
@@ -271,7 +275,7 @@ nav a {
       }
       .cube {
              display: flex; /* IE fix */
-             flex:0 0 33.333%;  boîtes non flexibles de largeur 33% 
+             flex:0 0 33.333%;  boîtes non flexibles de largeur 33%
              font-family: 'dayrom' , Arial, serif;
       }
       .cube:first-of-type, .cube:last-of-type {
@@ -281,7 +285,7 @@ nav a {
     h1{
            font-size: 0.5em;
     }
-   
+
     .cubes {
            display: flex;
            flex-direction: row; /* affichage horizontal */
@@ -304,7 +308,7 @@ nav a {
     }
     .cube {
            display: flex; /* IE fix */
-           flex:0 0 33.333%;  boîtes non flexibles de largeur 33% 
+           flex:0 0 33.333%;  boîtes non flexibles de largeur 33%
            font-family: 'dayrom' , Arial, serif;
     }
     .cube:first-of-type, .cube:last-of-type {
@@ -318,6 +322,5 @@ nav a {
     .justcenter {
            display: flex;
            margin:O;
-    } 
-}   
-    
+    }
+}

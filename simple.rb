@@ -6,11 +6,11 @@ require 'sinatra'
 
 
 get '/' do
-        erb :intro
+  erb :intro
 end
 
 get '/perspectives' do
-        erb :perspectives
+  erb :perspectives
 end
 
 get '/diplome' do
@@ -18,7 +18,7 @@ get '/diplome' do
 end
 
 get '/proximite' do
-      erb :proximite
+  erb :proximite
 end
 
 get '/terroir' do
@@ -26,11 +26,11 @@ get '/terroir' do
 end
 
 get '/salaire' do
-           erb :salaire
+  erb :salaire
 end
 
 get '/securite' do
-           erb :securite
+  erb :securite
 end
 
 get '/qualite' do
